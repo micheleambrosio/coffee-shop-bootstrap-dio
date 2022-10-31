@@ -1,0 +1,51 @@
+:root {
+  --bs-link-color: #198754;
+  --bs-link-hover-color: #146c43;
+}
+
+.btn {
+  --bs-btn-bg: #198754;
+  --bs-btn-hover-bg: #146c43;
+  --bs-btn-border-color: #146c43;
+  --bs-btn-hover-border-color: #146c43;
+  --bs-btn-active-bg: #146c43;
+  --bs-btn-active-border-color: #146c43;
+}
+
+/* Tamanho do logotipo */
+.navbar-brand img {
+  width: 50px;
+}
+
+/* Tamanho do carrossel */
+.carousel-item {
+  height: 500px;
+}
+
+/* Centraliza a imagem para melhor visualização */
+.carousel-item img {
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+/* Camada gradiente para facilitar a leitura */
+.carousel-item::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(transparent, rgb(31, 31, 31));
+  position: absolute;
+}
+
+/* Imagem dos cards "Sobre" */
+.card-about img {
+  max-width: 250px;
+  object-fit: cover;
+}
+
+/* Altura da imagem do card */
+.card-menu-item img {
+  height: 300px;
+  object-fit: cover;
+}
