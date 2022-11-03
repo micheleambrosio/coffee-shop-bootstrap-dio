@@ -7,9 +7,7 @@ Projeto com a temática de cafeteria utilizando Bootstrap para aulas de "Framewo
 
 [Clique aqui](https://micheleambrosio.github.io/coffee-shop-bootstrap-dio/) para acessar o resultado final do projeto.
 
-## 🛠️ Construído com
-
-Mencione as ferramentas que você usou para criar seu projeto
+## 🛠️ Tecnologias Utilizadas
 
 * [HTML](https://www.w3.org/html/) - Linguagem de Marcação
 * [CSS](https://www.w3.org/Style/CSS/) - Linguagem de Estilização
