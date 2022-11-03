@@ -12,24 +12,24 @@
   --bs-btn-active-border-color: #146c43;
 }
 
-/* Tamanho do logotipo */
+section {
+  scroll-margin-top: 6rem;
+}
+
 .navbar-brand img {
   width: 50px;
 }
 
-/* Tamanho do carrossel */
 .carousel-item {
   height: 500px;
 }
 
-/* Centraliza a imagem para melhor visualização */
 .carousel-item img {
   height: 100%;
   object-fit: cover;
   object-position: center;
 }
 
-/* Camada gradiente para facilitar a leitura */
 .carousel-item::before {
   content: "";
   width: 100%;
@@ -38,13 +38,6 @@
   position: absolute;
 }
 
-/* Imagem dos cards "Sobre" */
-.card-about img {
-  max-width: 250px;
-  object-fit: cover;
-}
-
-/* Altura da imagem do card */
 .card-menu-item img {
   height: 300px;
   object-fit: cover;
